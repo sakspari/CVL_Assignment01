@@ -27,6 +27,15 @@ collab version can be found here (make sure to take the dataset from this github
 3. Dataset Overexposure Image: [https://ln2.sync.com/dl/098a6c5e0/view/default/10491585270008?sync_id=0#cienw23w-usca2rgh-u5fxikex-q7vydzkp]
    samples taken from expert_c_testing_set directory
 
+## Method
+
+1. Point Operator:
+    * Global Histogram Equalization
+    * Block Histogram Equalization
+    * Adaptive Histogram Equalization (AHE)
+    * Contrast Limited Adaptive Histogram Equalization (CLAHE)
+2. Filter: Sharpening using Laplacian kernel to extract edge features
+
 ## Contents
 
 - `main.ipynb`: Main Jupyter notebook containing all code and explanations for the assignment.
